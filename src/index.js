@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import TodoMenu from './Component/TodoMenu/todo-menu';
+import Routes from './routes';
 
 import './index.scss';
 
 ReactDOM.render( 
-    <TodoMenu/> , 
+    <Routes />, 
     document.getElementById("app") 
 )

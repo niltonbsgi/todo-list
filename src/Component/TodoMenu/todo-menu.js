@@ -1,4 +1,5 @@
 import React from 'react';
+import { withRouter } from 'react-router-dom';
 import TodoHeader from '../TodoHeader/todo-header';
 import TodoAdd from '../TodoAdd/todo-add';
 import TodoItem from '../TodItem/todo-item';
@@ -82,4 +83,4 @@ class TodoMenu extends React.Component {
     }
 }
 
-export default TodoMenu
+export default withRouter(TodoMenu)
